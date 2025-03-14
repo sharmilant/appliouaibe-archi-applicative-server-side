@@ -95,9 +95,7 @@ var allMsgsV1 = ["Hello World", "foobar", "CentraleSupelec Forever"]
 
 // Version 2 of Messages store list :
 let allMsgs = [
-  { msg: "Hello World", pseudo: "user 1", date: "01/01/1970" },
-  { msg: "foobar", pseudo: "user 1", date: "01/01/1970" },
-  { msg: "CentraleSupelec Forever", pseudo: "user 1", "date": "01/01/1970" }
+  { msg: "Ceci est un message d'exemple", pseudo: "pseudo exemple", date: new Date().toLocaleString() },
 ];
 
 
